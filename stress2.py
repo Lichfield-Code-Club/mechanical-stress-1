@@ -70,7 +70,7 @@ if __name__ == '__main__':
     hsMax = pipeInput.hoop_stress_max() # Equation 5
     print(f"Max  Stress [{hsMax}]")
 
-    for r in range(1,100):
+    for r in range(1,ro):
         stress = pipeInput.hoop_stress(r)
         print(f"Stress at radius [{r}]=[{stress}]")
     
